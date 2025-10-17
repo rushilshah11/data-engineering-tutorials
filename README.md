@@ -61,3 +61,10 @@ Install the required Python packages defined in the `requirements.txt` file:
 # SQLAlchemy<2.0 (Note: This specific downgrade is often needed for compatibility with older Airflow/FAB configurations)
 
 pip install -r requirements.txt
+```
+__
+
+## 🧑‍💻 Author
+**Rushil Shah**  
+📫 [LinkedIn](https://linkedin.com/in/rushilshahh)
+💼 Portfolio
