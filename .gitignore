@@ -1,0 +1,49 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Python virtual environments
+**/venv/
+**/airflow_venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow specific
+**/airflow.db
+**/airflow.cfg
+**/webserver_config.py
+**/logs/
+**/*.log
+**/*.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+
+# Docker volumes and data
+docker-volumes/
+*.sqlite
+*.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover

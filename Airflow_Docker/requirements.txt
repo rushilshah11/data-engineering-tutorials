@@ -1,0 +1,9 @@
+# custom_requirements.txt
+# Your packages
+scikit-learn==1.7.2
+matplotlib==3.8.4
+
+# The explicit downgrade for the crashing component
+# This forces the incompatible component (Flask-SQLAlchemy via FAB) to work.
+# We target the dependency that caused the crash, not Airflow core itself.
+SQLAlchemy<2.0
